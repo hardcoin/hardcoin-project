@@ -1,0 +1,34 @@
+src/*.exe
+src/hardcoin
+src/hardcoind
+src/test_hardcoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.hardcoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+hardcoin-qt
+Hardcoin-Qt.app
+
+# Unit-tests
+Makefile.test
+hardcoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb-*/Makefile
